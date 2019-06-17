@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29001.49
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{E98BB276-092C-40B5-9AC2-C8F07B3EC145}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{53E6EF94-1FD7-40D2-8B76-AFC58C0E43A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GymProyect.Web", "GymProyect.Web\GymProyect.Web.csproj", "{A4B82EF6-031B-47B3-87EA-C6CCD6F201CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A4B82EF6-031B-47B3-87EA-C6CCD6F201CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4B82EF6-031B-47B3-87EA-C6CCD6F201CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4B82EF6-031B-47B3-87EA-C6CCD6F201CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4B82EF6-031B-47B3-87EA-C6CCD6F201CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4B82EF6-031B-47B3-87EA-C6CCD6F201CC} = {E98BB276-092C-40B5-9AC2-C8F07B3EC145}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B8DB9F0-E568-48D5-9D61-7811F8906A55}
+	EndGlobalSection
+EndGlobal

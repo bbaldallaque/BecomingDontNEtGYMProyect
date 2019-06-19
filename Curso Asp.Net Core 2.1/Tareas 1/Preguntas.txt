@@ -1,0 +1,10 @@
+1- Plain Old
+2- Los Issure o problematicas deben de ir en orden el proyecto,
+de ser asi si una issur depende de otro no se podra trabajar ni asignar a otra persona 
+3- Sistemas monolíticos
+4- Overkill 
+
+
+Fuera de....
+
+1- Cuento cuesta el Levantamiento

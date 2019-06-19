@@ -1,0 +1,62 @@
+         CORE CASE 
+1- Documentos de requerimientos(Dividir en modulos los que se tiene que hacer)
+
+   * Modulo de Autheticacion
+   + Sign Up
+   + Login
+   + Log out
+
+   *Eventos
+   *Calendarios
+   *Following
+
+2- Dependencia ( Trasar ruta Critica "Modo de operar" )
+
+     ++++Ver Presentacion++++
+     
+
+3- Nunca comenzar por el codigo
+
+4- Siempre comensar por el Sketch
+
+
+*******************************************************************************************
+
+Tarea: Desarrollar lo q	ue hicimos en clase hoy
+en GitHut En Pendin Crear ( Login, Register, Logut) 
+
+                              M-V-C
+
+
+    POO 101
+
+1- Variable
+2- Tipo de Dato
+3- Objeto
+4- Atributos
+5- Interfaces
+6- Herencias
+
+   DATABASE 101
+
+1- Table
+2- Campo
+3- Filas
+4- Llaves
+5- Ralaciones
+6- Normalizacion
+7- Llave Foranea
+
+Nota: Los datos que no sean Null, Deberian de estar en otra tabla
+
+    EF Code Frist
+
+1- Dominio de Modelo
+2- Migraciones ()
+
+
+
+
+
+
+

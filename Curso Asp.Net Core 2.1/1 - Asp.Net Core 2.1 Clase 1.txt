@@ -1,0 +1,83 @@
+Poco
+Bulding Back-End APIs
+Clear Arquitecture
+
+Boostrap
+CSS
+Usability
+JavaScript
+Ef CodeFirst
+RestfULL Apis
+Secruty
+POCO == Modelado de aplicaciones
+OOD
+
+Fundamentos
+Advance Topics
+Architrcture
+
+================================
+Por donde comenzar? Sches?
+Documento de requerimientos
+Mentalidad de Ing. de Software
+BackEnd
+FortEnd
+DataValidations == Validaciones
+Usabilidad
+Aspecto Artisticos de Interfaz grafiCA
+
+=======
+nOTIFICACIONES
+Apis
+RestFull
+
+	  QUE ES CORE?
+1- Multiplataforma
+2- Compatiliblidad
+3- size
+4- Rendimiento
+5- Nuget
+6- Seguridad
+7- Orientado a la Nube
+8- Inyeccion de Dependencia
+9- IIS o Apache
+10- Open Source
+
+         CONTROL DE VERSIONES
+- Usaremos GIT para el control de versiones 
+-BecomingDotNetUASDBryant
+-This is a test area for the developers form summer UASD students
+-Poner REDME
+-add gitignore (Visual studente)
+-MIT Licence == para utilizar el codigo de otro sin problema
+-Crear el proyecto
+*New Proyect "Initialskull" 
+*add columm "Pedin" Plantillade TODO... Newly Added, Responde
+*add Columm 
+*add Columm Working Plantilla en Progreso 
+*add Columm Done
+*add new Issues
+*add new Labels
+
+         Visual Studio
+-Add GitGub for Destock
+-File New Proyect
+-asp.core 
+-BlancSolution - Name: EventsCohach
+-new floder Clients
+*asp.net core 2.1 proyect new EcCent Coahc.Web
+(MVC) sin autrizacion automatica
+ Instalar Productivity Tools Esencial, Web Essntials 2019 
+
+Tarea: Pensar en el Proyecto
+
+
+
+Proyecto a Realizar: Inscripicion de Estudiantes en un Colegio (cuido de niños)
+
+
+-new folder Servers
+
+ 
+         
+         

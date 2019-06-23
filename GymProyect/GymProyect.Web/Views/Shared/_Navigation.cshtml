@@ -33,9 +33,9 @@
                     </div>
                     <center style="color:white">
                         @*@if (SignInManager.IsSignedIn(User))
-                        {
-                            <span class="block m-t-xs font-bold">@UserManager.GetUserName(User)</span>
-                        }*@
+                    {
+                        <span class="block m-t-xs font-bold">@UserManager.GetUserName(User)</span>
+                    }*@
                     </center>
                 </div>
                 <div class="logo-element">
@@ -46,57 +46,59 @@
                 <a href="/Dashboard"><i class="fa fa-tachometer"></i><span class="nav-label" data-i18n="nav.dashboard">Dashboard</span></a>
             </li>
             @*<li>
-                <a href="#"><i class="fa fa-sitemap"></i> <span class="nav-label" data-i18n="nav.menulevels">Menu Levels </span><span class="fa arrow"></span></a>
-                <ul class="nav nav-second-level">
-                    <li>
-                        <a href="#">Third Level <span class="fa arrow"></span></a>
-                        <ul class="nav nav-third-level">
-                            <li>
-                                <a href="#">Third Level Item</a>
-                            </li>
-                            <li>
-                                <a href="#">Third Level Item</a>
-                            </li>
-                            <li>
-                                <a href="#">Third Level Item</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Second Level Item</a></li>
-                    <li>
-                        <a href="#">Second Level Item</a>
-                    </li>
-                    <li>
-                        <a href="#">Second Level Item</a>
-                    </li>
-                </ul>
-            </li>*@
+            <a href="#"><i class="fa fa-sitemap"></i> <span class="nav-label" data-i18n="nav.menulevels">Menu Levels </span><span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level">
+                <li>
+                    <a href="#">Third Level <span class="fa arrow"></span></a>
+                    <ul class="nav nav-third-level">
+                        <li>
+                            <a href="#">Third Level Item</a>
+                        </li>
+                        <li>
+                            <a href="#">Third Level Item</a>
+                        </li>
+                        <li>
+                            <a href="#">Third Level Item</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Second Level Item</a></li>
+                <li>
+                    <a href="#">Second Level Item</a>
+                </li>
+                <li>
+                    <a href="#">Second Level Item</a>
+                </li>
+            </ul>
+        </li>*@
             @*<li>
-                <a href="#"><i class="fa fa-sitemap"></i> <span class="nav-label" data-i18n="nav.menulevels">Menu Levels 2 </span><span class="fa arrow"></span></a>
-                <ul class="nav nav-second-level">
-                    <li>
-                        <a href="#">Third Level <span class="fa arrow"></span></a>
-                        <ul class="nav nav-third-level">
-                            <li>
-                                <a href="#">Third Level Item</a>
-                            </li>
-                            <li>
-                                <a href="#">Third Level Item</a>
-                            </li>
-                            <li>
-                                <a href="#">Third Level Item</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li><a href="#">Second Level Item</a></li>
-                    <li>
-                        <a href="#">Second Level Item</a>
-                    </li>
-                    <li>
-                        <a href="#">Second Level Item</a>
-                    </li>
-                </ul>
-            </li>*@
+            <a href="#"><i class="fa fa-sitemap"></i> <span class="nav-label" data-i18n="nav.menulevels">Menu Levels 2 </span><span class="fa arrow"></span></a>
+            <ul class="nav nav-second-level">
+                <li>
+                    <a href="#">Third Level <span class="fa arrow"></span></a>
+                    <ul class="nav nav-third-level">
+                        <li>
+                            <a href="#">Third Level Item</a>
+                        </li>
+                        <li>
+                            <a href="#">Third Level Item</a>
+                        </li>
+                        <li>
+                            <a href="#">Third Level Item</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#">Second Level Item</a></li>
+                <li>
+                    <a href="#">Second Level Item</a>
+                </li>
+                <li>
+                    <a href="#">Second Level Item</a>
+                </li>
+            </ul>
+        </li>*@
+
+          
             <!--Segurity Inicio-->
             <li class="@Html.IsSelected(area: "Identity")">
                 <a href="#" class="toolt" data-toggle="tooltip" title="<h4>Políticas</h4>- Panel de seguridad"><i class="fa fa-shield"></i> <span class="nav-label" data-i18n="nav.administration">Seguridad</span> <span class="fa arrow"></span></a>

@@ -10,16 +10,12 @@
     <title> Gym | @ViewData["Title"]</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-
-
-
     <!-- Add local styles, mostly for plugins css file -->
     @if (IsSectionDefined("Styles"))
     {@RenderSection("Styles", required: false)}
 
 
     <environment names="Development">
-
         <link rel="stylesheet" href="~/lib/dataTables/dataTables.bootstrap4.min.css" />
         <link rel="stylesheet" href="~/lib/dataTables/datatables.min.css" />
         <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.css" />
@@ -28,20 +24,17 @@
         <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
     </environment>
 
-
     <environment names="Staging,Production">
-
         <link rel="stylesheet" href="~/lib/dataTables/dataTables.bootstrap4.min.css" />
         <link rel="stylesheet" href="~/lib/dataTables/datatables.min.css" />
-        <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.css" />
-        
+        <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.css" />     
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
         <link rel="stylesheet" href="~/css/animate.css" />
         <link rel="stylesheet" href="~/css/style.css" asp-append-version="true" />
     </environment>
 
 
-    @*<style>
+    <style>
         .pace .pace-progress {
             background-color: #0e9aef;
         }
@@ -85,9 +78,9 @@
         .tooltip-btn .tooltip-inner {
             text-align: inherit;
         }
-    </style>*@
+    </style>
 </head>
-<body class="skin-1">
+<body class="skin-3">
 
     <!-- Skin configuration box -->
     <!-- <partial name="_SkinConfig" /> -->
@@ -130,9 +123,6 @@
     <!-- End wrapper-->
 
     <environment names="Development">
-
-
-
         <script src="~/lib/jquery/dist/jquery.js"></script>
         <script src="~/lib/Popper/popper.min.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
@@ -142,14 +132,9 @@
         <script src="~/js/script.js" asp-append-version="true"></script>
         <script src="~/js/Uploadpiture.js" asp-append-version="true"></script>
         <script src="~/js/Usuarios.js" asp-append-version="true"></script>
-
     </environment>
+
     <environment names="Staging,Production">
-
-
-
-
-
         <script src="~/lib/jquery/dist/jquery.min.js"></script>
         <script src="~/lib/Popper/popper.min.js"></script>
         <script src="~/lib/bootstrap/dist/js/bootstrap.min.js"></script>
@@ -161,11 +146,27 @@
         <script src="~/js/Usuarios.js" asp-append-version="true"></script>
     </environment>
 
+    <script>
+        $('.toolt').tooltip({
+            placement: "right",
+            html: true,
+            delay: {
+                show: 10,
+                hide: 10
+            }
+        });
+
+        $('.tooltip-btn').tooltip({
+            placement: "bottom",
+            delay: {
+                show: 5,
+                hide: 5
+            }
+        });
+    </script>
 
 
     @RenderSection("scripts", required: false)
-
-
 
 </body>
 </html>

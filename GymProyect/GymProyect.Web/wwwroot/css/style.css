@@ -3429,7 +3429,7 @@ select.form-control:not([size]):not([multiple]) {
     padding: 6px 12px;
     transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
     width: 100%;
-    height: calc(2.25rem - 3px)
+    /*height: calc(2.25rem - 3px)*/
 }
 
     .form-control:focus,
@@ -10616,7 +10616,7 @@ body.skin-1 {
 }
 
 .skin-1 .navbar-static-top {
-    background: #e9ecef;
+    background: #f4f6fa;
 }
 
 .skin-1 .dashboard-header {
@@ -10783,7 +10783,7 @@ body.skin-2 #wrapper {
 }
 
 .skin-2 .navbar-static-top {
-    background: #213a53;
+    background: #f4f6fa;
 }
 
 .fixed-nav.skin-2 .navbar-fixed-top {
@@ -10948,7 +10948,7 @@ body.skin-3 {
 }
 
 .skin-3 .navbar-static-top {
-    background: #ffffff;
+    background: #f4f6fa;
 }
 
 .skin-3 .dashboard-header {

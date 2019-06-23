@@ -14,7 +14,7 @@
 
 
   <ItemGroup>
-    <Folder Include="Infraestructure\" />
+    <Folder Include="wwwroot\images\landing\UserPhoto\" />
   </ItemGroup>
 
 </Project>

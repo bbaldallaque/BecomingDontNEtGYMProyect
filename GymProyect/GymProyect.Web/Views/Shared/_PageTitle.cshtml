@@ -1,0 +1,29 @@
+﻿
+@{
+    var pageTitleIcon = ViewBag.PageTitleIcon == null ? "fa-wrench" : ViewBag.PageTitleIcon;
+}
+
+@if (ViewBag.PageTitle == null)
+{
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="row wrapper border-bottom white-bg page-heading" style="padding: 0 10px 10px 10px">
+                <div class="col-lg-12">
+                    <h2 class="section-title"><i class="fa @pageTitleIcon"></i> @Html.Raw(Model)</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="row wrapper border-bottom white-bg page-heading" style="padding: 0 10px 10px 10px">
+                <div class="col-lg-12">
+                    <h2 class="section-title"><i class="fa @pageTitleIcon"></i><strong> @ViewBag.PageTitle  </strong></h2>
+                </div>
+            </div>
+        </div>
+    </div>
+}

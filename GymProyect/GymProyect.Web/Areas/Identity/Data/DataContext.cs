@@ -1,4 +1,5 @@
 ﻿using GymProyect.Web.Areas.Identity.Data;
+using GymProyect.Web.Core.Entities;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -10,6 +11,9 @@ namespace GymProyect.Web.Models
             : base(options)
         {
         }
+         public DbSet<Person> Person { get; set; }
+
+
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
